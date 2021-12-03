@@ -1,0 +1,1 @@
+execute store result score @s cactus.count run clear @s cactus 0

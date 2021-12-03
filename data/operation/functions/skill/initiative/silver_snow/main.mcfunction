@@ -1,0 +1,1 @@
+execute as @e[type=#mob,distance=..5] run function operation:skill/initiative/silver_snow/self

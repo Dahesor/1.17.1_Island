@@ -1,0 +1,1 @@
+tellraw @s {"text": "你必须在疾跑状态才能使用本技能","color": "red","bold": true}

@@ -1,0 +1,1 @@
+item modify entity @s weapon operation:dash_gem/damage

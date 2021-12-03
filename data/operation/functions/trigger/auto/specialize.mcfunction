@@ -1,0 +1,4 @@
+execute if entity @s[nbt={SelectedItem:{tag:{skill:{id:3s}}}}] if score #loop_20 calculator matches 18 run function operation:skill/passive/dush_gem/set_damage_main
+execute if entity @s[nbt={Inventory:[{tag:{skill:{id:3s}},Slot:-106b}]}] if score #loop_20 calculator matches 9 run function operation:skill/passive/dush_gem/set_damage_off
+execute at @s if entity @s[nbt={SelectedItem:{tag:{skill:{id:6s}}}}] if score #loop_20 calculator matches 16 run function operation:skill/initiative/silver_snow/block_detect
+execute if predicate operation:_item/detect.thorn_grass if score #loop_20 calculator matches 10 run function operation:skill/initiative/thorn_grass/count_cactus

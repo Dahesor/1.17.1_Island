@@ -1,0 +1,1 @@
+execute as @e[type=armor_stand,tag=skill_field_particle,limit=1,sort=nearest,distance=..1] at @s run function operation:skill/initiative/field_sword/particle

@@ -1,0 +1,1 @@
+item modify entity @s weapon.offhand operation:dash_gem/damage

@@ -1,0 +1,2 @@
+execute unless entity @s[nbt={Inventory:[{id:"minecraft:cactus"}]}] run tellraw @s {"text": "你必须有仙人掌才能射击","color": "red"}
+execute if entity @s[nbt={Inventory:[{id:"minecraft:cactus"}]}] at @s run function operation:skill/initiative/thorn_grass/shoot

@@ -1,0 +1,1 @@
+execute unless score hold_sneak_timer settings matches 1.. run scoreboard players set hold_sneak_timer settings 60
