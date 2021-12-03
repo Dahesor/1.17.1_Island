@@ -1,0 +1,1 @@
+tellraw @s "数据包版本 v.Alpha 3.6\n\n1. 更改了【结界剑】的Lore，以进行统一\n2. 【结界剑】现在使用\"to_offhand\"触发器（持在主手按F）\n3. 添加了【汹涌之甲】，id为turbulent_armor，使用双击shift触发。\n4. 现在actionbar可以同时显示多个冷却时间（如果有的话）\n5. 自己做了一个神奇，但还没做完\n6. cross_age函数被合并到change_log\n7. 当前数据包本为6。"

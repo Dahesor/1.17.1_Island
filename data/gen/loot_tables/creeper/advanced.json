@@ -1,0 +1,128 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:alternatives",
+            "children": [
+              {
+                "type": "minecraft:loot_table",
+                "name": "gen:temp/diamond_coin",
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.007
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:sequence",
+                "children": [
+                  {
+                    "type": "minecraft:loot_table",
+                    "name": "gen:temp/gold_coin"
+                  },
+                  {
+                    "type": "minecraft:loot_table",
+                    "name": "gen:temp/silver_coin",
+                    "functions": [
+                      {
+                        "function": "minecraft:set_count",
+                        "count": {
+                          "min": 6,
+                          "max": 11
+                        }
+                      },
+                      {
+                        "function": "minecraft:looting_enchant",
+                        "count": 1
+                      }
+                    ]
+                  },
+                  {
+                    "type": "minecraft:loot_table",
+                    "name": "gen:temp/silver_coin",
+                    "functions": [
+                      {
+                        "function": "minecraft:set_count",
+                        "count": {
+                          "type": "minecraft:binomial",
+                          "n": 14,
+                          "p": 0.4
+                        }
+                      },
+                      {
+                        "function": "minecraft:limit_count",
+                        "limit": {
+                          "min": 1,
+                          "max": 10
+                        }
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "condition": "minecraft:random_chance",
+                        "chance": 0.4
+                      }
+                    ]
+                  }
+                ],
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.6
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:loot_table",
+                "name": "gen:temp/silver_coin",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 20,
+                      "max": 28
+                    }
+                  },
+                  {
+                    "function": "minecraft:looting_enchant",
+                    "count": {
+                      "min": 1,
+                      "max": 3
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:gunpowder",
+            "functions": [
+              {
+                "function": "minecraft:looting_enchant",
+                "count": {
+                  "min": 0,
+                  "max": 1
+                },
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.4
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

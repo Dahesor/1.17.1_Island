@@ -1,0 +1,95 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:alternatives",
+            "children": [
+              {
+                "type": "minecraft:sequence",
+                "children": [
+                  {
+                    "type": "minecraft:loot_table",
+                    "name": "gen:temp/diamond_coin"
+                  },
+                  {
+                    "type": "minecraft:loot_table",
+                    "name": "gen:temp/silver_coin",
+                    "conditions": [
+                      {
+                        "condition": "minecraft:random_chance",
+                        "chance": 0.1
+                      }
+                    ]
+                  }
+                ],
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.005
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:loot_table",
+                "name": "gen:temp/gold_coin",
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.09
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:loot_table",
+                "name": "gen:temp/silver_coin",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 6,
+                      "max": 10
+                    }
+                  },
+                  {
+                    "function": "minecraft:looting_enchant",
+                    "count": {
+                      "min": 1,
+                      "max": 2
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:ender_pearl",
+            "functions": [
+              {
+                "function": "minecraft:looting_enchant",
+                "count": {
+                  "type": "minecraft:binomial",
+                  "n": 2,
+                  "p": 0.4
+                }
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.47
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

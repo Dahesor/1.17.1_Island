@@ -1,0 +1,20 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:player_head"
+      },
+      "title": "失足",
+      "description": "首次死亡",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "starmap:island/attack",
+    "criteria": {
+      "death": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

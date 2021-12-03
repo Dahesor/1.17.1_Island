@@ -1,0 +1,9 @@
+{
+    "values": [
+        "air",
+        "void_air",
+        "cave_air",
+        "structure_void",
+        "moving_piston"
+    ]
+}

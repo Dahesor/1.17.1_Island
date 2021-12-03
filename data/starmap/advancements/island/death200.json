@@ -1,0 +1,27 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:barrier",
+        "nbt": "{Enchantments:[{}]}"
+      },
+      "title": {
+        "text": "终究还是我承担了所有",
+        "color": "red"
+      },
+      "description": "死亡200次",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "parent": "starmap:island/death50",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "rewards": {
+      "experience": 400
+    }
+  }
+  

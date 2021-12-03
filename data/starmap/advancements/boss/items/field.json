@@ -1,0 +1,28 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:diamond_sword",
+        "nbt": "{}"
+      },
+      "title": "结界",
+      "description": "获得【结界剑】",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "starmap:boss/items/any",
+    "criteria": {
+      "a": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "nbt": "{skill:{id:1s}}"
+            }
+          ]
+        }
+      }
+    }
+  }
+  

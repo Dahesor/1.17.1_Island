@@ -1,0 +1,83 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:brick",
+        "nbt": "{CustomModelData:4}"
+      },
+      "title": "易拉罐收藏家",
+      "description": "拥有全部4种钱币",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true
+    },
+    "parent": "starmap:island/trade_coin",
+    "criteria": {
+      "a": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "count": {
+                "min": 1
+              },
+              "nbt": "{coin:1b}"
+            }
+          ]
+        }
+      },
+      "b": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "count": {
+                "min": 1
+              },
+              "nbt": "{coin:2b}"
+            }
+          ]
+        }
+      },
+      "c": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "count": {
+                "min": 1
+              },
+              "nbt": "{coin:3b}"
+            }
+          ]
+        }
+      },
+      "d": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "count": {
+                "min": 1
+              },
+              "nbt": "{coin:4b}"
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "a"
+      ],
+      [
+        "b"
+      ],
+      [
+        "c"
+      ],
+      [
+        "d"
+      ]
+    ]
+  }
+  

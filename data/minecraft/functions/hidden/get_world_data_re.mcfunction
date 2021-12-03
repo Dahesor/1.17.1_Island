@@ -1,0 +1,1 @@
+execute as @a[tag=get_world_data] at @s run function minecraft:hidden/get_world_data

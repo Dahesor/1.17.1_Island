@@ -1,0 +1,28 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:carrot_on_a_stick",
+        "nbt": "{CustomModelData:2}"
+      },
+      "title": "举高高",
+      "description": "获得任意一件有特殊特性的装备",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "starmap:boss/root",
+    "criteria": {
+      "a": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "nbt": "{skill:{anchor:1b}}"
+            }
+          ]
+        }
+      }
+    }
+  }
+  

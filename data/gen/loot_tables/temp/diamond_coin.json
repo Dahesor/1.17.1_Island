@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:brick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{coin:3b,CustomModelData:3,display:{Name:'{\"text\": \"钻石币\",\"italic\":false,\"color\":\"aqua\"}',Lore:['\"\"','{\"text\": \"较为珍贵的货币\",\"color\": \"white\",\"italic\": false}']}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

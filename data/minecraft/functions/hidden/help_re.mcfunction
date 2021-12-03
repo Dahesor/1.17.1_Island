@@ -1,0 +1,1 @@
+execute as @a[tag=need_help] run function hidden/help_contents

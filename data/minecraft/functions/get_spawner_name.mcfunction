@@ -1,0 +1,2 @@
+execute unless block ~ ~-1 ~ spawner run tellraw @s [{"text": "获取失败，下方的方块不是刷怪笼","underlined": false,"bold": true,"color": "red"}]
+execute if block ~ ~-1 ~ spawner run tellraw @s [{"text": "获取成功，悬浮查看信息","underlined": true,"bold": true,"color": "green","hoverEvent": {"action": "show_text","contents": {"nbt":"SpawnPotentials[].Entity.CustomName","block":"~ ~-1 ~","color": "aqua","separator": {"text": "\n | \n","bold": true,"color": "red"},"interpret": true}}}]

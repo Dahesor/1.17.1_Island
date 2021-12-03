@@ -1,0 +1,28 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:iron_chestplate",
+        "nbt": "{Damage:100}"
+      },
+      "title": "浪潮",
+      "description": "获得【汹涌之甲】",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "starmap:boss/items/any",
+    "criteria": {
+      "a": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "nbt": "{skill:{id:2s}}"
+            }
+          ]
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,28 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:spectral_arrow"
+      },
+      "title": "找掩体，找掩体！",
+      "description": "被一只骷髅从20格外射入虚空",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "parent": "starmap:island/attack",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:entity_killed_player",
+        "conditions": {
+          "killing_blow": {
+            "bypasses_invulnerability": true,
+            "source_entity": {
+              "type": "minecraft:skeleton"
+            }
+          }
+        }
+      }
+    }
+  }
+  

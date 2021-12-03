@@ -1,0 +1,45 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "weight": 1,
+            "name": "gen:temp/gold_coin"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 104,
+            "name": "gen:temp/silver_coin",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:binomial",
+                  "n": 7,
+                  "p": 0.6
+                }
+              },
+              {
+                "function": "minecraft:looting_enchant",
+                "count": {
+                  "type": "minecraft:binomial",
+                  "n": 2,
+                  "p": 0.4
+                }
+              },
+              {
+                "function": "minecraft:limit_count",
+                "limit": {
+                  "min": 3,
+                  "max": 10
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

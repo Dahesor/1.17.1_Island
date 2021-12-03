@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:brick",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{coin:1b,CustomModelData:1,display:{Name:'{\"text\": \"银币\",\"italic\":false}',Lore:['\"\"','{\"text\": \"十分普通的货币\",\"color\": \"white\",\"italic\": false}']}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

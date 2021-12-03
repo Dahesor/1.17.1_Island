@@ -1,0 +1,23 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:diamond_block"
+      },
+      "title": "讨伐者",
+      "description": "击败所有的BOSS",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "parent": "starmap:boss/first",
+    "criteria": {
+      "a": {
+        "trigger": "impossible"
+      }
+    },
+    "rewards": {
+        "experience": 1000
+    }
+  }
+  

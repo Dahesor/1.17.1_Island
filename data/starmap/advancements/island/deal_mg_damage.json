@@ -1,0 +1,31 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:carrot_on_a_stick",
+        "nbt": "{CustomModelData:3}"
+      },
+      "title": "Magic~",
+      "description": "一击造成18点以上的魔法伤害",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "starmap:island/attack",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "damage": {
+            "dealt": {
+              "min": 18
+            },
+            "type": {
+              "is_magic": true
+            }
+          }
+        }
+      }
+    }
+  }
+  

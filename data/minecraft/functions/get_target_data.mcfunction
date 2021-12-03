@@ -1,0 +1,1 @@
+execute at @e[type=!player,limit=1,sort=nearest,distance=..10] run function hidden/get_data

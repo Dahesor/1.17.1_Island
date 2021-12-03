@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:brick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{coin:2b,CustomModelData:2,display:{Name:'{\"text\": \"金币\",\"italic\":false,\"color\":\"gold\"}',Lore:['\"\"','{\"text\": \"罕见的货币\",\"color\": \"white\",\"italic\": false}']}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

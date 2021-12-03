@@ -1,0 +1,26 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:iron_sword"
+      },
+      "title": "出击时间到！",
+      "description": [{"text": "获得一把剑"},{"text": "c","font": "island"}],
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true
+    },
+    "parent": "starmap:island/root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "tag": "operation:sword"
+            }
+          ]
+        }
+      }
+    }
+  }
+  

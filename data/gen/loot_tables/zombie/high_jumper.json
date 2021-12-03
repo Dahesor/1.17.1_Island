@@ -1,0 +1,42 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "gen:zombie/regular"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "potion",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Potion:'minecraft:leaping'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "random_chance_with_looting",
+                            "chance": 0.02,
+                            "looting_multiplier": 0.01
+                        },
+                        {
+                            "condition": "time_check",
+                            "value": {
+                                "min": 16000,
+                                "max": 24000
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

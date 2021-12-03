@@ -1,0 +1,21 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:bell",
+        "nbt": "{Enchantments:[{}]}"
+      },
+      "title": "挑战者之旅",
+      "description": "与………对话（等待制作中……）",
+      "background": "minecraft:textures/block/soul_sand.png",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "criteria": {
+      "a": {
+        "trigger": "minecraft:tick"
+      }
+    }
+  }
+  

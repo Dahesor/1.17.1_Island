@@ -1,0 +1,1 @@
+execute as @e[type=#mob] run attribute @s generic.follow_range modifier remove 1fb7e97e-8e08-4ff9-b0eb-d1e51112e137

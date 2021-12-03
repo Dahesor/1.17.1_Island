@@ -1,0 +1,30 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:diamond_sword"
+      },
+      "title": "“他一剑打了我九颗心！”",
+      "description": "一击造成超过18以上的物理伤害",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "starmap:island/attack",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "damage": {
+            "dealt": {
+              "min": 18
+            },
+            "type": {
+              "is_magic": false
+            }
+          }
+        }
+      }
+    }
+  }
+  

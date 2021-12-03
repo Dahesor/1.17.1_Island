@@ -1,0 +1,1 @@
+kill @e[type=#mob,distance=..15]
