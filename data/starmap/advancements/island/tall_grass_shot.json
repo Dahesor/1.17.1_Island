@@ -1,0 +1,48 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:tall_grass"
+      },
+      "title": {
+        "text": "LSB",
+        "bold": true
+      },
+      "description": "躲在高草丛里射中20格外的敌人",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "starmap:island/attack",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "player": {
+            "location": {
+              "block": {
+                "blocks": [
+                  "minecraft:tall_grass"
+                ]
+              }
+            }
+          },
+          "damage": {
+            "blocked": false,
+            "type": {
+              "is_projectile": true
+            }
+          },
+          "entity": {
+            "nbt": "{Tags:[\"modified\"]}",
+            "distance": {
+              "horizontal": {
+                "min": 20
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  

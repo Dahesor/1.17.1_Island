@@ -1,0 +1,54 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:chorus_fruit",
+        "nbt": "{Enchantments:[{}]}"
+      },
+      "title": "宇宙天空流",
+      "description": {
+        "text": "用漂浮药水将自己和一名怪物带到270格的高空，然后干掉它",
+        "color": "yellow"
+      },
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true
+    },
+    "parent": "starmap:island/attack",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "player": {
+            "location": {
+              "position": {
+                "y": {
+                  "min": 264
+                }
+              },
+              "dimension": "minecraft:overworld"
+            }
+          },
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:['modified']}",
+                "location": {
+                  "position": {
+                    "y": {
+                      "min": 264
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+        "experience": 100
+    }
+  }
+  

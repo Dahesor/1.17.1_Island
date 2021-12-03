@@ -1,0 +1,35 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:brick",
+        "nbt": "{CustomModelData:3}"
+      },
+      "title": "给你钻石！啊不，币！",
+      "description": "将钻石币丢给僵尸",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "starmap:island/coin",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:thrown_item_picked_up_by_entity",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:brick"
+            ],
+            "count": {
+              "min": 1
+            },
+            "nbt": "{coin:3b}"
+          },
+          "entity": {
+            "type": "minecraft:zombie"
+          }
+        }
+      }
+    }
+  }
+  

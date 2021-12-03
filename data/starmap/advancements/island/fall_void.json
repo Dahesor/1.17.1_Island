@@ -1,0 +1,29 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:bedrock"
+      },
+      "title": "出来混迟早是要还的",
+      "description": "掉入虚空",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "starmap:island/attack",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "location": {
+            "position": {
+              "y": {
+                "max": -60
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  

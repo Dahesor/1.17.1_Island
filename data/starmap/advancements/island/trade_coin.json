@@ -1,0 +1,52 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:brick",
+        "nbt": "{CustomModelData:2}"
+      },
+      "title": "这里不能炒外汇！",
+      "description": "在货币转换商人处兑换货币",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true
+    },
+    "parent": "starmap:island/coin",
+    "criteria": {
+      "a": {
+        "trigger": "minecraft:villager_trade",
+        "conditions": {
+          "item": {
+            "nbt": "{coin:1b}"
+          }
+        }
+      },
+      "b": {
+        "trigger": "minecraft:villager_trade",
+        "conditions": {
+          "item": {
+            "nbt": "{coin:2b}"
+          }
+        }
+      },
+      "c": {
+        "trigger": "minecraft:villager_trade",
+        "conditions": {
+          "item": {
+            "nbt": "{coin:3b}"
+          }
+        }
+      },
+      "d": {
+        "trigger": "minecraft:villager_trade",
+        "conditions": {
+          "item": {
+            "nbt": "{coin:4b}"
+          }
+        }
+      }
+    },
+    "requirements": [
+        ["a","b","c","d"]
+    ]
+  }
+  

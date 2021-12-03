@@ -1,0 +1,26 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:oak_log"
+      },
+      "title": {
+        "text": "欢迎来到空岛",
+        "color": "yellow"
+      },
+      "description": "第一次降临到空岛世界",
+      "background": "island:textures/font/background.png",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:tick"
+      }
+    },
+    "rewards": {
+      "experience": 1
+    }
+  }
+  

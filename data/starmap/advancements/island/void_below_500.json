@@ -1,0 +1,31 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:bedrock",
+        "nbt": "{Enchantments:[{}]}"
+      },
+      "title": "作死主义者",
+      "description": "潜入到Y=-500格以下的位置",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "starmap:island/fall_void",
+    "criteria": {
+      "void": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [],
+          "location": {
+            "position": {
+              "y": {
+                "max": -500
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  
