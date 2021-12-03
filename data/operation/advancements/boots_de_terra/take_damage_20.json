@@ -1,0 +1,40 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": "this",
+                "score": "terra.t.skill"
+              },
+              "range": {
+                "min": 2
+              }
+            }
+          ],
+          "damage": {
+            "dealt": {
+              "max": 20,
+              "min": 14.000001
+            },
+            "blocked": false,
+            "type": {
+              "is_fire": false,
+              "is_magic": false,
+              "bypasses_magic": false,
+              "bypasses_armor": false,
+              "bypasses_invulnerability": false
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+        "function": "operation:skill/initiative/boots_de_terra/damage/20"
+    }
+  }
+  
