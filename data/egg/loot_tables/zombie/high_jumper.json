@@ -1,0 +1,49 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:zombie_spawn_egg",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{EntityTag:{id:'minecraft:zombie',Tags:['modified'],CustomName:'\"§f[小怪] §b§l高跳者\"',Health:26f,Attributes:[{Name:'generic.max_health',Base:26d}],ActiveEffects:[{Id:8b,ShowParticles:0b,Duration:99999999,Amplifier:8b}],ArmorDropChances:[0.02f,0f,0f,0f],ArmorItems:[{id:'leather_boots',Count:1b,tag:{display:{Name:'{\"text\": \"轻盈鞋\",\"italic\": false}',color:5460948}}},{},{},{}],DeathLootTable:'gen:zombie/high_jumper'},island_egg:1b}"
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "生成蛋",
+                  "bold": true,
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": " 僵尸.高跳",
+                      "color": "yellow",
+                      "bold": false
+                    }
+                  ]
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "描述: 全套无附魔铁",
+                    "color": "white",
+                    "italic": false
+                  }
+                ],
+                "replace": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

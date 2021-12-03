@@ -1,0 +1,5 @@
+execute store result score #printer calculator run data get entity @s Pos[0]
+execute store result score #printer_2 calculator run data get entity @s Pos[1]
+execute store result score @s calculator run data get entity @s Pos[2]
+tellraw @a [{"text": "[WARNING]位于(","color": "#c78118"},{"score":{"name": "#printer","objective": "calculator"}},", ",{"score":{"name": "#printer_2","objective": "calculator"}},", ",{"score":{"name": "@s","objective": "calculator"}},")的刷怪笼包含与预期不符的(",{"text":"[数据]","underlined": true,"hoverEvent": {"action": "show_text","contents": {"nbt":"SpawnPotentials[0].Entity","block": "~ ~ ~"}}},"/",{"text":"[记录]","underlined": true,"hoverEvent": {"action": "show_text","contents": {"nbt":"data.EntityTag","entity": "@s"}}},")\n   如果是您主动修改了NBT，请站在该刷怪笼上并",{"text": "点击这里","color": "green","underlined": true,"clickEvent": {"action": "run_command","value": "/function egg:place_spawner/marker/renew_nbt_re"}},"重新记录NBT\n","   或将本BUG报告给Dahesor"]
+tag @s add incompatible

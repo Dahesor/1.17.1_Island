@@ -1,0 +1,3 @@
+execute positioned ~ ~-1 ~ if entity @e[type=marker,limit=1,sort=nearest,distance=..1,tag=spawner_marker,tag=incompatible] as @e[type=marker,limit=1,sort=nearest,distance=..1,tag=spawner_marker,tag=incompatible] at @s run function egg:place_spawner/marker/renew_nbt
+execute positioned ~ ~-1 ~ unless entity @e[type=marker,limit=1,sort=nearest,distance=..1] run tellraw @s {"text": "[ERROR]检测失败","color": "red"}
+execute positioned ~ ~-1 ~ unless entity @e[type=marker,limit=1,sort=nearest,distance=..1,tag=spawner_marker,tag=incompatible] if entity @e[type=marker,limit=1,sort=nearest,distance=..1] run tellraw @s {"text": "[ERROR]本刷怪笼无法修复，因为它本来就没有错误","color": "red"}

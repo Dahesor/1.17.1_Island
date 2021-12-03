@@ -1,0 +1,49 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:spider_spawn_egg",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{EntityTag:{id:'minecraft:spider',Tags:['modified'],Health:50f,CustomName:'\"§f§l[小怪] §3 §l高级蜘蛛\"',Attributes:[{Name:'generic.max_health',Base:30d},{Name:'generic.attack_damage',Base:8d}],DeathLootTable:'gen:spider/advanced'},island_egg:1b}"
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "生成蛋",
+                  "bold": true,
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": " 蜘蛛.高级",
+                      "color": "yellow",
+                      "bold": false
+                    }
+                  ]
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "描述: 无特殊",
+                    "color": "white",
+                    "italic": false
+                  }
+                ],
+                "replace": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

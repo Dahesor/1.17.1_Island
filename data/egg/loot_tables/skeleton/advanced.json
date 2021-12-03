@@ -1,0 +1,49 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:skeleton_spawn_egg",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{EntityTag:{id:'minecraft:skeleton',Tags:['modified'],Health:40f,DeathLootTable:'gen:skeleton/advanced',CustomName:'\"§f[小怪] §b§l高级骷髅\"',Attributes:[{Name:'generic.max_health',Base:40d}],HandItems:[{id:'bow',Count:1b},{}],HandDropChances:[0f,0f],ArmorItems:[{id:'iron_boots',Count:1b,tag:{Enchantments:[{id:'protection',lvl:1}]}},{id:'iron_leggings',Count:1b,tag:{Enchantments:[{id:'protection',lvl:1}]}},{},{id:'iron_helmet',Count:1b,tag:{Enchantments:[{id:'protection',lvl:1}]}}],ArmorDropChances:[0f,0f,0f,0f]},island_egg:1b}"
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "生成蛋",
+                  "bold": true,
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": " 骷髅.高级",
+                      "color": "yellow",
+                      "bold": false
+                    }
+                  ]
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "描述: 钻石上半身，铁下半身",
+                    "color": "white",
+                    "italic": false
+                  }
+                ],
+                "replace": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

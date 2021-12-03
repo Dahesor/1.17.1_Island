@@ -1,0 +1,49 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:creeper_spawn_egg",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{EntityTag:{id:'minecraft:creeper',Tags:['modified'],Health:30f,Attributes:[{Name:'generic.max_health',Base:30d}],ExplosionRadius:2b,CustomName:'\"§f§l[小怪] §7 §l普通苦力怕\"',DeathLootTable:'gen:creeper/regular'},island_egg:1b}"
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "生成蛋",
+                  "bold": true,
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": " 苦力怕.普通",
+                      "color": "yellow",
+                      "bold": false
+                    }
+                  ]
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "描述: 无特殊",
+                    "color": "white",
+                    "italic": false
+                  }
+                ],
+                "replace": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

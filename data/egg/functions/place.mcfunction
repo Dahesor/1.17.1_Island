@@ -1,0 +1,2 @@
+execute if data entity @s SelectedItem.tag.EntityTag.id run function egg:place_spawner/action
+execute unless data entity @s SelectedItem.tag.EntityTag.id run tellraw @s {"text": "[ERROR] 手持物不是刷怪蛋，或缺少id标签","color": "red"}

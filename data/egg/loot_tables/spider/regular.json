@@ -1,0 +1,49 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:spider_spawn_egg",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{EntityTag:{id:'minecraft:spider',Tags:['modified'],Health:30f,CustomName:'\"§f§l[小怪] §7 §l普通蜘蛛\"',Attributes:[{Name:'generic.max_health',Base:30d},{Name:'generic.attack_damage',Base:6d}],DeathLootTable:'gen:spider/regular'},island_egg:1b}"
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "生成蛋",
+                  "bold": true,
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": " 蜘蛛.普通",
+                      "color": "yellow",
+                      "bold": false
+                    }
+                  ]
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "描述: 无特殊",
+                    "color": "white",
+                    "italic": false
+                  }
+                ],
+                "replace": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

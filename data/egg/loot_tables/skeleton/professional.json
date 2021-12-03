@@ -1,0 +1,49 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:skeleton_spawn_egg",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{EntityTag:{id:'minecraft:skeleton',Tags:['modified'],CustomName:'\"§f§l[小怪]§d§l专家骷髅\"',Attributes:[{Name:'generic.max_health',Base:60d}],HandDropChances:[0f,0f],HandItems:[{id:'bow',Count:1b},{id:\"tipped_arrow\",Count:1b,tag:{CustomPotionEffects:[{Id:7b,Amplifier:1b,Duration:1}]}}],Health:60f,ArmorDropChances:[0f,0f,0f,0f],ArmorItems:[{id:'iron_boots',Count:1b,tag:{Enchantments:[{id:'minecraft:protection',lvl:2}]}},{id:'iron_leggings',Count:1b,tag:{Enchantments:[{id:'minecraft:protection',lvl:2}]}},{id:'diamond_chestplate',Count:1b,tag:{Enchantments:[{id:'minecraft:protection',lvl:2}]}},{id:'diamond_helmet',Count:1b}],DeathLootTable:'gen:skeleton/professional'},island_egg:1b}"
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "生成蛋",
+                  "bold": true,
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": " 骷髅.专家",
+                      "color": "yellow",
+                      "bold": false
+                    }
+                  ]
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "描述: 除胸甲附魔铁",
+                    "color": "white",
+                    "italic": false
+                  }
+                ],
+                "replace": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

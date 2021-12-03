@@ -1,0 +1,49 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:zombie_spawn_egg",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{EntityTag:{id:'minecraft:zombie',Tags:['modified'],CustomName:'\"§f§l[小怪]§d§l专家僵尸\"',Attributes:[{Name:'generic.max_health',Base:60d},{Name:'generic.attack_damage',Base:8d}],Health:60f,ArmorDropChances:[0f,0f,0f,0f],ArmorItems:[{id:'iron_boots',Count:1b,tag:{Enchantments:[{id:'minecraft:protection',lvl:2}]}},{id:'iron_leggings',Count:1b,tag:{Enchantments:[{id:'minecraft:protection',lvl:2}]}},{id:'diamond_chestplate',Count:1b,tag:{Enchantments:[{id:'minecraft:protection',lvl:2}]}},{id:'diamond_helmet',Count:1b}],DeathLootTable:'gen:zombie/professional'},island_egg:1b}"
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "生成蛋",
+                  "bold": true,
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": " 僵尸.专家",
+                      "color": "yellow",
+                      "bold": false
+                    }
+                  ]
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "描述: 钻石上半身，铁下半身",
+                    "color": "white",
+                    "italic": false
+                  }
+                ],
+                "replace": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,49 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:zombie_spawn_egg",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{EntityTag:{id:'minecraft:zombie',Tags:['modified'],CustomName:'\"§f[小怪] §a§l高级僵尸\"',Health:30f,DeathLootTable:'gen:zombie/advanced',Attributes:[{Name:'generic.max_health',Base:30.0d},{Name:'generic.attack_damage',Modifiers:[{Amount:4d,Operation:0,Name:'boost.zombie',UUID:[I;1844328647,1409042910,-1708757480,553404205]}]}],ArmorItems:[{id:'iron_boots',Count:1b},{id:'iron_leggings',Count:1b},{id:'iron_chestplate',Count:1b},{id:'iron_helmet',Count:1b}],ArmorDropChances:[0f,0f,0f,0f]},island_egg:1b}"
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "生成蛋",
+                  "bold": true,
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": " 僵尸.高级",
+                      "color": "yellow",
+                      "bold": false
+                    }
+                  ]
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "描述: 全套无附魔铁",
+                    "color": "white",
+                    "italic": false
+                  }
+                ],
+                "replace": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

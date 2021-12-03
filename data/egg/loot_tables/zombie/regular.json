@@ -1,0 +1,49 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:zombie_spawn_egg",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{EntityTag:{id:'minecraft:zombie',Tags:['modified'],CustomName:'\"§f[小怪] §a§l普通僵尸\"',Attributes:[],DeathLootTable:'gen:zombie/regular',HandItems:[{id:'egg',Count:1,tag:{Enchantments:[{id:'knockback',lvl:1}],mob_item:1b}},{}],HandDropChances:[0f,0f],ArmorItems:[{id:'leather_boots',Count:1,tag:{mob_item:1b,display:{color:2075698}}},{id:'leather_leggings',Count:1,tag:{mob_item:1b,display:{color:2075698}}},{id:'leather_chestplate',Count:1,tag:{mob_item:1b,display:{color:2075698}}},{id:'leather_helmet',Count:1,tag:{mob_item:1b,display:{color:2075698}}}],ArmorDropChances:[0f,0f,0f,0f]},island_egg:1b}"
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "生成蛋",
+                  "bold": true,
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": " 僵尸.普通",
+                      "color": "yellow",
+                      "bold": false
+                    }
+                  ]
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "描述: 全套无附魔绿色",
+                    "color": "white",
+                    "italic": false
+                  }
+                ],
+                "replace": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

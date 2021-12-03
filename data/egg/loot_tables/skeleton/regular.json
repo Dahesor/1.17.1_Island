@@ -1,0 +1,49 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:skeleton_spawn_egg",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{EntityTag:{id:'minecraft:skeleton',Tags:['modified'],Health:30f,CustomName:'\"§f[小怪] §a§l普通骷髅\"',Attributes:[{Name:'generic.max_health',Base:30d}],HandItems:[{id:'bow',Count:1,tag:{Enchantments:[{id:'punch',lvl:1}]}},{}],ArmorItems:[{},{},{},{id:'iron_helmet',Count:1b}],HandDropChances:[0f,0f],ArmorDropChances:[0f,0f,0f,0f],DeathLootTable:'gen:skeleton/regular'},island_egg:1b}"
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "生成蛋",
+                  "bold": true,
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": " 骷髅.普通",
+                      "color": "yellow",
+                      "bold": false
+                    }
+                  ]
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "描述: 30生命值，附魔铁头",
+                    "color": "white",
+                    "italic": false
+                  }
+                ],
+                "replace": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
