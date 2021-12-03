@@ -1,0 +1,2 @@
+execute if entity @s[nbt={Inventory:[{Slot:102b,tag:{skill:{id:2s}}}]}] if score @s turb.c.skill matches 1.. run tellraw @s {"text": "技能冷却中！","color": "red"}
+execute if entity @s[nbt={Inventory:[{Slot:102b,tag:{skill:{id:2s}}}]}] unless score @s turb.c.skill matches 1.. run function operation:skill/initiative/turbulent_armor/main
