@@ -1,0 +1,4 @@
+execute at @e[tag=boss_1] run summon wither ~ ~ ~ {Attributes:[{Name:"generic.max_health",Base:1000d}],Tags:["boos_1.move_1.wither"],DeathLootTable:"minecraft:empty",Health:1000f}
+execute at @e[tag=boss_1] run summon wither ~ ~ ~ {Attributes:[{Name:"generic.max_health",Base:1000d}],Tags:["boos_1.move_1.wither"],DeathLootTable:"minecraft:empty",Health:1000f}
+execute at @e[tag=boss_1] run summon wither ~ ~ ~ {Attributes:[{Name:"generic.max_health",Base:1000d}],Tags:["boos_1.move_1.wither"],DeathLootTable:"minecraft:empty",Health:1000f}
+execute at @e[tag=boss_1] run summon wither ~ ~ ~ {Attributes:[{Name:"generic.max_health",Base:1000d}],Tags:["boos_1.move_1.wither"],DeathLootTable:"minecraft:empty",Health:1000f}

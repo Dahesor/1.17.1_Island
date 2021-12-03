@@ -1,0 +1,2 @@
+execute if entity @e[tag=boos_1.move_1.zombie,type=zombie] run schedule function ai:boss_1/moves/loop/loop_mob 1t
+execute unless entity @e[tag=boos_1.move_1.zombie,type=zombie] run function ai:boss_1/moves/loop/loop_void

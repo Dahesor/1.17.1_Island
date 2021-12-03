@@ -1,0 +1,10 @@
+summon zombie ~ ~400 ~ {Tags:["boos_1.move_1.zombie"],ArmorItems:[{"id":"leather_boots",Count:1b},{"id":"leather_leggings",Count:1b},{"id":"leather_chestplate",Count:1b},{"id":"leather_helmet",Count:1b}]}
+summon zombie ~ ~400 ~ {Tags:["boos_1.move_1.zombie"],ArmorItems:[{"id":"leather_boots",Count:1b},{"id":"leather_leggings",Count:1b},{"id":"leather_chestplate",Count:1b},{"id":"leather_helmet",Count:1b}]}
+summon zombie ~ ~400 ~ {Tags:["boos_1.move_1.zombie"],ArmorItems:[{"id":"leather_boots",Count:1b},{"id":"leather_leggings",Count:1b},{"id":"leather_chestplate",Count:1b},{"id":"leather_helmet",Count:1b}]}
+summon zombie ~ ~400 ~ {Tags:["boos_1.move_1.zombie"],ArmorItems:[{"id":"leather_boots",Count:1b},{"id":"leather_leggings",Count:1b},{"id":"leather_chestplate",Count:1b},{"id":"leather_helmet",Count:1b}]}
+summon zombie ~ ~400 ~ {Tags:["boos_1.move_1.zombie"],ArmorItems:[{"id":"leather_boots",Count:1b},{"id":"leather_leggings",Count:1b},{"id":"leather_chestplate",Count:1b},{"id":"leather_helmet",Count:1b}]}
+summon zombie ~ ~400 ~ {Tags:["boos_1.move_1.zombie"],ArmorItems:[{"id":"leather_boots",Count:1b},{"id":"leather_leggings",Count:1b},{"id":"leather_chestplate",Count:1b},{"id":"leather_helmet",Count:1b}]}
+summon zombie ~ ~400 ~ {Tags:["boos_1.move_1.zombie"],ArmorItems:[{"id":"leather_boots",Count:1b},{"id":"leather_leggings",Count:1b},{"id":"leather_chestplate",Count:1b},{"id":"leather_helmet",Count:1b}]}
+summon zombie ~ ~400 ~ {Tags:["boos_1.move_1.zombie"],ArmorItems:[{"id":"leather_boots",Count:1b},{"id":"leather_leggings",Count:1b},{"id":"leather_chestplate",Count:1b},{"id":"leather_helmet",Count:1b}]}
+summon zombie ~ ~400 ~ {Tags:["boos_1.move_1.zombie"],ArmorItems:[{"id":"leather_boots",Count:1b},{"id":"leather_leggings",Count:1b},{"id":"leather_chestplate",Count:1b},{"id":"leather_helmet",Count:1b}]}
+spreadplayers ~ ~ 0 10 false @e[tag=boos_1.move_1.zombie]

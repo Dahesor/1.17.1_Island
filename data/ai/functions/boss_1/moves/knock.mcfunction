@@ -1,0 +1,1 @@
+effect give @p[tag=move_target] levitation 1 5

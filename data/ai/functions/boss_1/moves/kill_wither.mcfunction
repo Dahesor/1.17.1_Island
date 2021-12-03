@@ -1,0 +1,1 @@
+kill @e[type=wither,tag=boos_1.move_1.wither]

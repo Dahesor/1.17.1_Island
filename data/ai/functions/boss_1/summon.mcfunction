@@ -1,0 +1,1 @@
+summon zombie ~3 ~ ~ {Tags:["boss_1"],Invulnerable:1b}
