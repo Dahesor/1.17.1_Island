@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "leather_boots",
+                    "functions": [
+        {
+            "function": "set_nbt",
+            "tag": "{skill:{trigger:'hold_sneak',id:5s,sid:'boots_de_terra'},raw_json:{content:'[\"\",{\"text\":\"ຆ\",\"font\":\"island\"},\" \",{\"score\":{\"name\": \"@s\",\"objective\": \"terra.c.skill\"},\"color\":\"yellow\"}]',Slot:['boots']},Unbreakable:1b,HideFlags:6,AttributeModifiers:[{Name:'LeatherBootGround',Amount:2.0d,Operation:0,AttributeName:'generic.armor',Slot:'feet',UUID:[I;792867,-11111111,127318725,-98]}],display:{Name:'{\"text\": \"大地之靴\",\"color\": \"dark_purple\",\"italic\": false}',Lore:['\"史诗\"','\"\"','{\"text\": \"“只要脚触大地，力量就不会断绝”\",\"color\": \"green\",\"italic\": false}','\"\"','{\"text\": \"基础属性：\",\"color\": \"dark_green\",\"italic\": false}','{\"text\": \"+2 护甲\",\"color\": \"dark_green\",\"italic\": false}','{\"text\": \"无法损坏\",\"color\": \"blue\"}','\"\"','{\"text\": \"技能：绝闩\",\"italic\": false,\"color\": \"#b5362d\",\"bold\": true}','[{\"text\": \"长按\",\"color\": \"white\",\"bold\": true,\"italic\": false},{\"keybind\":\"key.sneak\"},\"三秒后松开触发\"]','\"双手横伸如天平，两脚触地如直木\"','{\"text\": \"将承受的所有物理攻击通过身躯传导到脚下的土地里\",\"italic\": false,\"color\": \"yellow\"}','{\"text\": \"使得自己免疫绝大部分的物理伤害。\",\"italic\": false,\"color\": \"yellow\"}','{\"text\": \"但但每次承担伤害都会使你的脚越陷越深\",\"italic\": false,\"color\": \"yellow\"}','{\"text\": \"技能持续时间内受到物理伤害将减缓你的移度\",\"color\": \"red\",\"italic\": false}','{\"text\": \"限制：若你的移动速度降为0，技能提前结束\",\"color\": \"red\",\"italic\": false}','{\"text\": \"技能持续30秒\",\"color\": \"green\",\"italic\": false}','{\"text\": \"冷却：6分钟\",\"color\": \"yellow\"}']}}"
+        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

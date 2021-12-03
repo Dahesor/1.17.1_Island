@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": 
+                        "{skill:{trigger:'carrot_stick',id:4s,sid:'thorn_grass',Slot:\"weapon\",anchor:1b},raw_json:{content:'[\"\",{\"text\": \"+\",\"font\": \"island\"},{\"score\":{\"name\": \"@s\",\"objective\": \"cactus.count\"},\"font\":\"default\",\"color\": \"yellow\"}]',Slot:['mainhand','offhand']},display:{Name:'{\"text\": \"荆棘草\",\"color\": \"dark_purple\",\"italic\": false}',Lore:['\"史诗\"','\"\"','{\"text\": \"人们经常疑问，\",\"color\": \"#66d472\",\"italic\": false}','{\"text\": \"荆棘是如何与仙人掌好上的？这不Minecraft! \",\"color\": \"#66d472\",\"italic\": false}','{\"text\": \"\"}','{\"text\": \"然而Ta们所不知道的是，\",\"color\": \"#66d472\",\"italic\": false}','{\"text\": \"荆棘草其实原本是一名神祗的佩剑……\",\"color\": \"#66d472\",\"italic\": false}','\"\"','{\"text\": \"基础属性: \",\"color\": \"dark_green\",\"italic\": false}','{\"text\": \"+5.6 攻击力\",\"color\": \"dark_green\",\"italic\": false}','{\"text\": \"1.7 攻击速度\",\"color\": \"yellow\",\"italic\": false}','{\"text\": \"无法损坏\",\"color\": \"blue\",\"italic\": false}','{\"text\": \"无法横扫\",\"color\": \"red\",\"italic\": false}','\"\"','[{\"text\": \"特性: 岂曰无\",\"italic\": false,\"color\": \"aqua\"},{\"text\": \"绿\",\"color\": \"green\"}]','[{\"keybind\":\"key.use\",\"color\": \"white\",\"bold\": true,\"italic\": false},\"触发\"]','{\"text\": \"消耗背包中的仙人掌并将其发射\",\"color\": \"yellow\",\"italic\": false}','{\"text\": \"造成3点伤害与随机时长的中毒\",\"color\": \"yellow\",\"italic\": false}','{\"text\": \"消耗: 仙人掌\",\"color\": \"red\"}']},AttributeModifiers:[{Name:'ThGrassAttackBoost',Amount:5.6d,AttributeName:'generic.attack_damage',Slot:\"mainhand\",Operation:0,UUID:[I;-447070937,588990538,-1761490097,429835077]},{Name:'ThGrassASpDecre',AttributeName:'generic.attack_speed',UUID:[I;-1598797219,459948783,-1265214272,26159],Amount:-2.3,Operation:0,Slot:\"mainhand\"}],Unbreakable:1b,CustomModelData:2,HideFlags:6}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

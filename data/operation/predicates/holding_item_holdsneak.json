@@ -1,0 +1,39 @@
+{
+  "condition": "minecraft:alternative",
+    "terms": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "legs": {
+              "nbt": "{skill:{trigger:'hold_sneak'}}"
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "head": {
+              "nbt": "{skill:{trigger:'hold_sneak'}}"
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "feet": {
+              "nbt": "{skill:{trigger:'hold_sneak'}}"
+            }
+          }
+        }
+      }
+    ]
+}
+  

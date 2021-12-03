@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomModelData:1,skill:{trigger:'carrot_stick',id:3s,sid:\"dash_gem\",Slot:\"weapon\",anchor:1b},display:{Name:'{\"text\": \"冲刺宝石\",\"color\": \"gold\",\"italic\": false}',Lore:['{\"text\": \"传说\",\"color\": \"gold\"}','\"\"','{\"text\": \"21号程序员有一天想到，如果Ta能够\",\"color\": \"#ffbdd5\",\"italic\": false}','{\"text\": \"世界各地横冲直撞该多好。这份\",\"color\": \"#ffbdd5\",\"italic\": false}','{\"text\": \"梦想渗入了梦界，并最终凝结成这颗宝石。\",\"color\": \"#ffbdd5\",\"italic\": false}','\"据说，它包含着概念的力量\"','\"\"','{\"text\": \"技能：不知后退\",\"color\": \"red\",\"bold\": true,\"italic\": false}','[{\"keybind\":\"key.use\",\"color\": \"white\",\"bold\": true,\"italic\": false},\"触发，需要充能\"]','{\"text\": \"将本宝石持在主或副手上会自动充能。\",\"color\": \"yellow\",\"italic\": false}','{\"text\": \"充能满时施放技能可以向前冲锋1秒。\",\"color\": \"yellow\",\"italic\": false}','{\"text\": \"期间获得抗性提升II效果，且无法被击退。\",\"color\": \"yellow\",\"italic\": false}','{\"text\": \"冲锋路径上的敌人都将受到伤害。\",\"color\": \"yellow\",\"italic\": false}','{\"text\": \"限制：只有疾跑时才能释放技能\",\"color\": \"red\",\"italic\": false,\"bold\": true}','{\"text\": \"充能时间：10s\",\"color\": \"green\"}']},Damage:20,Unbreakable:0b,HideFlags:127,Enchantments:[{id:'unbreaking',lvl:255}]}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

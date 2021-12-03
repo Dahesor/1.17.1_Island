@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls":1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "iron_chestplate",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{skill:{trigger:'shift',id:2s,sid:'turbulent_armor',anchor:1b},raw_json:{content:'[\"\",{\"text\": \"I\",\"font\":\"island\"},\" \",{\"score\":{\"name\": \"@s\",\"objective\": \"turb.c.skill\"},\"color\":\"yellow\"}]',Slot:['chest']},AttributeModifiers:[{AttributeName:\"generic.armor\",Amount:9d,Slot:'chest',Name:'generic.armor',UUID:[I;-1211021,6073,105744,-12146]},{AttributeName:'generic.armor_toughness',Amount:2.5d,Slot:'chest',Name:'generic.armor_toughness',UUID:[I;-1211021,6173,105744,-12346]}],display:{Name:'[{\"text\":\"汹涌之甲\",\"italic\":false,\"bold\":true,\"color\":\"dark_purple\"}]',Lore:['{\"text\":\"史诗\",\"bold\":true,\"color\":\"dark_purple\"}','\"\"','{\"text\":\"这副胸甲藏在热带草原侧岛上的\",\"italic\":false,\"color\":\"#ccff99\"}','{\"text\":\"墓碑里，唯有捐献贡品，才可以\",\"italic\":false,\"color\":\"#ccff99\"}','{\"text\":\"得到这无穷力量的圣甲。\",\"italic\":false,\"color\":\"#ccff99\"}','\"\"','{\"text\":\"装备属性：\",\"italic\":false,\"color\":\"dark_green\"}','{\"text\":\"+9 盔甲\",\"italic\":false,\"color\":\"dark_green\"}','{\"text\":\"+2.5 盔甲韧性\",\"italic\":false,\"color\":\"dark_green\"}','\"\"','{\"text\":\"技能：“脂”肪为甲\",\"italic\":false,\"color\":\"dark_aqua\",\"bold\":true}','[{\"text\":\"手持并连按两下\",\"color\": \"white\",\"bold\": true,\"italic\": false},{\"keybind\":\"key.sneak\"},\"触发\"]','[{\"text\":\"瞬间回复自身\",\"color\":\"dark_aqua\",\"bold\":false,\"italic\":false},{\"text\":\"8点生命值\",\"color\":\"light_purple\"}]','[{\"text\":\"但同时由于盔甲的巨大力量\",\"color\":\"dark_aqua\",\"bold\":false}]','[{\"text\":\"你的饥饿值随后会\",\"italic\":false,\"color\":\"dark_aqua\"},{\"text\":\"快速下降\",\"italic\":false,\"color\":\"light_purple\",\"bold\":true}]','[{\"text\":\"冷却：2分钟\",\"color\":\"yellow\"}]']},HideFlags:2}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
