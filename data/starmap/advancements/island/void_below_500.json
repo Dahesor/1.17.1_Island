@@ -4,8 +4,8 @@
         "item": "minecraft:bedrock",
         "nbt": "{Enchantments:[{}]}"
       },
-      "title": "作死主义者",
-      "description": "潜入到Y=-500格以下的位置",
+      "title": {"translate":"advancement.island.void_below_500.title"},
+      "description": {"translate":"advancement.island.void_below_500.description"},
       "frame": "challenge",
       "show_toast": true,
       "announce_to_chat": true,

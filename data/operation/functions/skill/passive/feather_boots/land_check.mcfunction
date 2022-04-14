@@ -1,0 +1,1 @@
+execute positioned ~ ~-2 ~ unless predicate operation:safe_landing run function operation:skill/passive/feather_boots/slow_fall

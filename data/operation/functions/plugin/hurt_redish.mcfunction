@@ -1,0 +1,1 @@
+summon snowball ~ ~2.5 ~ {Motion:[0d,-5d,0d],Item:{id:"brick",Count:1b,tag:{CustomModelData:10}},LeftOwner:1b,Silent:1b}

@@ -4,10 +4,10 @@
         "item": "minecraft:oak_log"
       },
       "title": {
-        "text": "欢迎来到空岛",
+        "translate": "advancement.island.root.title",
         "color": "yellow"
       },
-      "description": "第一次降临到空岛世界",
+      "description": {"translate":"advancement.island.root.description"},
       "background": "island:textures/font/background.png",
       "frame": "task",
       "show_toast": true,

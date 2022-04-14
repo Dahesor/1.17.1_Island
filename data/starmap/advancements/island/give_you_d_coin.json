@@ -4,8 +4,8 @@
         "item": "minecraft:brick",
         "nbt": "{CustomModelData:3}"
       },
-      "title": "给你钻石！啊不，币！",
-      "description": "将钻石币丢给僵尸",
+      "title": {"translate":"advancement.island.give_you_d_coin.title"},
+      "description": {"translate":"advancement.island.give_you_d_coin.description"},
       "frame": "task",
       "show_toast": true,
       "announce_to_chat": true,

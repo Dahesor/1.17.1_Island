@@ -4,8 +4,8 @@
         "item": "minecraft:brick",
         "nbt": "{CustomModelData:2}"
       },
-      "title": "这里不能炒外汇！",
-      "description": "在货币转换商人处兑换货币",
+      "title": {"translate":"advancement.island.trade_coin.title"},
+      "description": {"translate":"advancement.island.trade_coin.description"},
       "frame": "task",
       "show_toast": true,
       "announce_to_chat": true

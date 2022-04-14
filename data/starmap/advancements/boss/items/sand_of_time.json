@@ -1,0 +1,28 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:bow",
+        "nbt": "{CustomModelData:1}"
+      },
+      "title": "时间之河",
+      "description": [{"text": "获得【"},{"text": "时之沙","color": "red","bold": true},"】"],
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "starmap:boss/items/any",
+    "criteria": {
+      "a": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "nbt": "{skill:{id:7s}}"
+            }
+          ]
+        }
+      }
+    }
+  }
+  

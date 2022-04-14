@@ -1,0 +1,51 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "loot_table",
+			"name": "operation:item/arrow_bundle"
+		}]
+	}, {
+		"rolls": 1,
+		"entries": [{
+			"type": "loot_table",
+			"name": "operation:item/boots_de_terra"
+		}]
+	}, {
+		"rolls": 1,
+		"entries": [{
+			"type": "loot_table",
+			"name": "operation:item/dash_gem"
+		}]
+	}, {
+		"rolls": 1,
+		"entries": [{
+			"type": "loot_table",
+			"name": "operation:item/feather_boots"
+		}]
+	}, {
+		"rolls": 1,
+		"entries": [{
+			"type": "loot_table",
+			"name": "operation:item/field_sword"
+		}]
+	}, {
+		"rolls": 1,
+		"entries": [{
+			"type": "loot_table",
+			"name": "operation:item/silver_snow"
+		}]
+	}, {
+		"rolls": 1,
+		"entries": [{
+			"type": "loot_table",
+			"name": "operation:item/turbulent_armor"
+		}]
+	}, {
+		"rolls": 1,
+		"entries": [{
+			"type": "loot_table",
+			"name": "operation:item/yin_yang"
+		}]
+	}]
+}

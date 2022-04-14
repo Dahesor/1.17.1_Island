@@ -4,8 +4,8 @@
         "item": "minecraft:netherite_axe",
         "nbt": "{Enchantments:[{}]}"
       },
-      "title": "这一剑下去，你可能会死",
-      "description": "一击造成50点以上伤害",
+      "title": {"translate":"advancement.island.damage_50.title"},
+      "description": {"translate":"advancement.island.damage_50.description"},
       "frame": "goal",
       "show_toast": true,
       "announce_to_chat": true,

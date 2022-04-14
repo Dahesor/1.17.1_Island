@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "leather_boots",
+                    "functions": [
+                        {
+            "function": "set_nbt",
+            "tag": "{skill:{trigger:'auto',Slot:\"feet\",id:11s,sid:'feather_boots',anchor:1b},RawJSON:{},CustomModelData:2,AttributeModifiers:[{Name:'f_boot_armor',Amount:2.5d,AttributeName:'generic.armor',Operation:0,Slot:\"feet\",UUID:[I;64827564,-74918764,2468276,-323897456]},{AttributeName:'generic.movement_speed',Name:'fb_speedboost',UUID:[I;128376,-9715412,2938461,298364],Slot:\"feet\",Amount:0.3,Operation:1}],Enchantments:[{id:\"minecraft:feather_falling\",lvl:2}],Unbreakable:1b,RepairCost:10000,HideFlags:70,display:{color:784383,Name:'{\"translate\": \"item.island.feather_boots\",\"color\": \"dark_purple\",\"italic\": false}',Lore:['{\"translate\":\"tier.3\"}','\"\"','{\"translate\": \"lore.feather_boots.story.line_1\",\"color\": \"aqua\",\"italic\": false}','{\"translate\": \"lore.feather_boots.story.line_1.2\",\"color\": \"aqua\",\"italic\": false}','{\"translate\": \"lore.feather_boots.story.line_2\",\"italic\": false,\"color\": \"aqua\"}','{\"translate\": \"lore.feather_boots.story.line_3\",\"color\": \"aqua\",\"italic\": false}','{\"translate\": \"lore.feather_boots.story.line_4\",\"color\": \"#d6faff\"}','\"\"','{\"translate\": \"attribute.title\"}','[{\"text\": \"+2.5 \",\"italic\": false,\"color\": \"dark_green\"},{\"translate\":\"attribute.name.generic.armor\"}]','[{\"text\": \"+30% \",\"color\": \"dark_green\",\"italic\": false},{\"translate\":\"attribute.name.generic.movement_speed\"}]','\"\"','{\"translate\": \"lore.feather_boots.skill_1.title\",\"color\": \"white\",\"bold\": true}','{\"translate\": \"lore.feather_boots.skill_1.line_1\",\"color\": \"green\"}','{\"translate\": \"lore.feather_boots.skill_1.line_2\",\"color\": \"green\"}']}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

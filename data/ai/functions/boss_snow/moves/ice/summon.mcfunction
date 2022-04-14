@@ -1,0 +1,9 @@
+summon falling_block ~ ~8 ~ {BlockState:{Name:"frosted_ice"},Time:1,DropItem:0b,FallHurtAmount:1f,FallHurtMax:6,HurtEntities:true,NoGravity:1b,Tags:["boss_snow.ice"]}
+summon falling_block ~1 ~8 ~ {BlockState:{Name:"frosted_ice"},Time:1,DropItem:0b,FallHurtAmount:1f,FallHurtMax:6,HurtEntities:true,NoGravity:1b,Tags:["boss_snow.ice"]}
+summon falling_block ~-1 ~8 ~ {BlockState:{Name:"frosted_ice"},Time:1,DropItem:0b,FallHurtAmount:1f,FallHurtMax:6,HurtEntities:true,NoGravity:1b,Tags:["boss_snow.ice"]}
+summon falling_block ~ ~8 ~1 {BlockState:{Name:"frosted_ice"},Time:1,DropItem:0b,FallHurtAmount:1f,FallHurtMax:6,HurtEntities:true,NoGravity:1b,Tags:["boss_snow.ice"]}
+summon falling_block ~ ~8 ~-1 {BlockState:{Name:"frosted_ice"},Time:1,DropItem:0b,FallHurtAmount:1f,FallHurtMax:6,HurtEntities:true,NoGravity:1b,Tags:["boss_snow.ice"]}
+summon falling_block ~-1 ~8 ~1 {BlockState:{Name:"frosted_ice"},Time:1,DropItem:0b,FallHurtAmount:1f,FallHurtMax:6,HurtEntities:true,NoGravity:1b,Tags:["boss_snow.ice"]}
+summon falling_block ~-1 ~8 ~-1 {BlockState:{Name:"frosted_ice"},Time:1,DropItem:0b,FallHurtAmount:1f,FallHurtMax:6,HurtEntities:true,NoGravity:1b,Tags:["boss_snow.ice"]}
+summon falling_block ~1 ~8 ~1 {BlockState:{Name:"frosted_ice"},Time:1,DropItem:0b,FallHurtAmount:1f,FallHurtMax:6,HurtEntities:true,NoGravity:1b,Tags:["boss_snow.ice"]}
+summon falling_block ~1 ~8 ~-1 {BlockState:{Name:"frosted_ice"},Time:1,DropItem:0b,FallHurtAmount:1f,FallHurtMax:6,HurtEntities:true,NoGravity:1b,Tags:["boss_snow.ice"]}

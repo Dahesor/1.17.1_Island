@@ -1,8 +1,7 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:carrot_on_a_stick",
-        "nbt": "{CustomModelData:1}"
+        "item": "minecraft:leather_boots"
       },
       "title": "以我血肉为坦",
       "description": [{"text": "获得【"},{"text": "大地之靴","color": "dark_purple"},"】"],

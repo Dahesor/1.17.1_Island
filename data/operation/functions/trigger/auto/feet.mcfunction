@@ -1,0 +1,1 @@
+execute if entity @s[nbt={Inventory:[{Slot:100b,tag:{skill:{Slot:'feet',id:11s}}}]}] run function operation:skill/passive/feather_boots/tick

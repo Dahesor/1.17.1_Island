@@ -5,10 +5,10 @@
         "nbt": "{Enchantments:[{}]}"
       },
       "title": {
-        "text": "终究还是我承担了所有",
+        "translate": "advancement.island.death200.title",
         "color": "red"
       },
-      "description": "死亡200次",
+      "description": {"translate":"advancement.island.death200.description"},
       "frame": "challenge",
       "show_toast": true,
       "announce_to_chat": true,

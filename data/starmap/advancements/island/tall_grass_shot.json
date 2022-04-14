@@ -4,10 +4,10 @@
         "item": "minecraft:tall_grass"
       },
       "title": {
-        "text": "LSB",
+        "translate": "advancement.island.tall_grass_shot.title",
         "bold": true
       },
-      "description": "躲在高草丛里射中20格外的敌人",
+      "description": {"translate":"advancement.island.tall_grass_shot.description"},
       "frame": "task",
       "show_toast": true,
       "announce_to_chat": true,
@@ -34,7 +34,7 @@
             }
           },
           "entity": {
-            "nbt": "{Tags:[\"modified\"]}",
+            "nbt": "{Tags:['modified']}",
             "distance": {
               "horizontal": {
                 "min": 20

@@ -1,0 +1,161 @@
+[
+    {
+      "function": "minecraft:set_damage",
+      "damage": 0.8,
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "mainhand": {
+                "durability": {
+                  "min": 24
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+        "function": "minecraft:set_nbt",
+        "tag":"{arrow_left:4b}",
+        "conditions": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "durability": {
+                    "min": 24
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_damage",
+        "damage": 0.6,
+        "conditions": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "durability": {
+                    "min": 20,
+                    "max": 22
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+          "function": "minecraft:set_nbt",
+          "tag":"{arrow_left:3b}",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "mainhand": {
+                    "durability": {
+                      "min": 20,
+                      "max": 22
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+            "function": "minecraft:set_damage",
+            "damage": 0.4,
+            "conditions": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "mainhand": {
+                      "durability": {
+                        "min": 14,
+                        "max": 18
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+              "function": "minecraft:set_nbt",
+              "tag":"{arrow_left:2b}",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "mainhand": {
+                        "durability": {
+                          "min": 14,
+                          "max": 18
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+                "function": "minecraft:set_damage",
+                "damage": 0.2,
+                "conditions": [
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "equipment": {
+                        "mainhand": {
+                          "durability": {
+                            "min": 8,
+                            "max": 12
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                  "function": "minecraft:set_nbt",
+                  "tag":"{arrow_left:1b}",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "equipment": {
+                          "mainhand": {
+                            "durability": {
+                              "min": 8,
+                              "max": 12
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+  ]
+  

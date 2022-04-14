@@ -1,6 +1,7 @@
 {
     "values": [
         "gen:load",
-        "operation:load"
+        "operation:load",
+        "ai:load"
     ]
 }

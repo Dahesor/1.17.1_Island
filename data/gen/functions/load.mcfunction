@@ -1,6 +1,7 @@
 function operation:updater/start
 scoreboard objectives add boss_data dummy
 scoreboard objectives add calculator dummy
+scoreboard objectives add calculator_2 dummy
 scoreboard objectives add player_version dummy
 scoreboard objectives add debug dummy
 scoreboard objectives add leave_game custom:leave_game
@@ -13,11 +14,6 @@ scoreboard objectives setdisplay list health
 scoreboard objectives modify health rendertype hearts
 
 tag @e remove incompatible
-
-kill @e[type=armor_stand,tag=skill_field_particle]
-kill @e[tag=skill.thorn.snowball]
-
-
 
 #define storage spawner
 #define tag boss_1

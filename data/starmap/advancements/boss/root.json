@@ -4,7 +4,7 @@
         "item": "minecraft:bell",
         "nbt": "{Enchantments:[{}]}"
       },
-      "title": "挑战者之旅",
+      "title": {"translate":"advancement.boss.root.title"},
       "description": "与………对话（等待制作中……）",
       "background": "minecraft:textures/block/soul_sand.png",
       "frame": "challenge",

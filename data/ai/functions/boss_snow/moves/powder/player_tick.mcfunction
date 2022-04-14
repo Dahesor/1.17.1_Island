@@ -1,0 +1,1 @@
+execute as @a[gamemode=adventure,tag=in_boss_snow] at @s if block ~ ~ ~ powder_snow run effect give @s wither 4 1 true

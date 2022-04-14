@@ -1,0 +1,19 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:bow"
+            ],
+            "nbt": "{skill:{trigger:'double_click'}}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "operation:trigger/double_click/self"
+    }
+  }
+  

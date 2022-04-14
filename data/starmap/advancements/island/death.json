@@ -3,8 +3,8 @@
       "icon": {
         "item": "minecraft:player_head"
       },
-      "title": "失足",
-      "description": "首次死亡",
+      "title": {"translate":"advancement.island.death.title"},
+      "description": {"translate":"advancement.island.death.description"},
       "frame": "task",
       "show_toast": true,
       "announce_to_chat": true,

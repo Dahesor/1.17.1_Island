@@ -1,0 +1,13 @@
+{
+   "providers": [
+  {
+    "type": "bitmap",
+    "file": "island:font/hunger.png",
+    "height": 10,
+    "ascent": 8,
+    "chars": [
+      "\ucc00\ucc01\ucc02\ucc03\ucc04\ucc05\ucc06\ucc07\ucc08"
+    ]
+  }
+   ]
+ }

@@ -4,8 +4,8 @@
       "item": "minecraft:brick",
       "nbt": "{CustomModelData:1}"
     },
-    "title": "银爵士",
-    "description": "获得任意一种钱币",
+    "title": {"translate":"advancement.island.coin.title"},
+    "description": {"translate":"advancement.island.coin.description"},
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true

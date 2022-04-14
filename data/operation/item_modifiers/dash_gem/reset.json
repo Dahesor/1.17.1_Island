@@ -2,5 +2,4 @@
     "function": "minecraft:set_damage",
     "damage": 0,
     "add": false
- }
-   
+}

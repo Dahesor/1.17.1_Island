@@ -1,0 +1,1 @@
+tellraw @s {"translate":"资源包未安装","color": "red"}

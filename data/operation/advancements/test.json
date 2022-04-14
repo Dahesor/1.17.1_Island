@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "a":{
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "diamond"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "operation:test"
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "gen:enderman/regular",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1,
+                            "add": true
+                        },
+                        {
+                            "function": "set_count",
+                            "count": 1,
+                            "add": true,
+                            "conditions": [
+                                {
+                                    "condition": "random_chance",
+                                    "chance": 0.2
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

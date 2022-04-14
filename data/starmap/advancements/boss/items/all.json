@@ -50,6 +50,24 @@
                 }
               ]
             }
+          },"6": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "nbt": "{skill:{id:6s}}"
+                }
+              ]
+            }
+          },"7": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "nbt": "{skill:{id:7s}}"
+                }
+              ]
+            }
           }
     }
   }

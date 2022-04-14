@@ -3,8 +3,8 @@
       "icon": {
         "item": "minecraft:diamond_sword"
       },
-      "title": "“他一剑打了我九颗心！”",
-      "description": "一击造成超过18以上的物理伤害",
+      "title": {"translate":"advancement.island.deal_ph_damage.title"},
+      "description": {"translate":"advancement.island.deal_ph_damage.description"},
       "frame": "task",
       "show_toast": true,
       "announce_to_chat": true,

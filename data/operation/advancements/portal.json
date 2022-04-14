@@ -1,0 +1,14 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:enter_block",
+        "conditions": {
+          "block": "minecraft:nether_portal"
+        }
+      }
+    },
+    "rewards": {
+      "function": "operation:plugin/portal"
+    }
+  }
+  

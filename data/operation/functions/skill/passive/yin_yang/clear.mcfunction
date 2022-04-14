@@ -1,0 +1,1 @@
+execute as @a[nbt=!{Inventory:[{Slot:101b,tag:{skill:{id:12s}}}]},nbt={Attributes:[{Modifiers:[{Name:'{"text":"츈","font":"island"}'}]}]}] run attribute @s generic.luck modifier remove 22363dec-a8d4-4337-bd49-8d434860c6df

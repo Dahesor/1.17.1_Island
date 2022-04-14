@@ -1,0 +1,19 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+          "player": {
+            "nbt": "{Tags:[\"in_boss_snow\"]}"
+          },
+          "damage": {
+            "source_entity": {
+              "type": "minecraft:falling_block"
+            }
+          }
+        }
+      }
+    },
+    "re"
+  }
+  

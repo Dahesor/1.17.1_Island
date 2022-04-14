@@ -1,0 +1,13 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/brick"
+  },
+  "overrides": [
+    { "predicate": { "custom_model_data": 1 }, "model": "island:item/silver_coin"},
+    { "predicate": { "custom_model_data": 2 }, "model": "island:item/gold_coin"},
+    { "predicate": { "custom_model_data": 3 }, "model": "island:item/diamond_coin"},
+    { "predicate": { "custom_model_data": 4 }, "model": "island:item/emerald_coin"},
+    { "predicate": { "custom_model_data": 10 }, "model": "island:null"}
+  ]
+}

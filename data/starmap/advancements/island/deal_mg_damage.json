@@ -4,8 +4,8 @@
         "item": "minecraft:carrot_on_a_stick",
         "nbt": "{CustomModelData:3}"
       },
-      "title": "Magic~",
-      "description": "一击造成18点以上的魔法伤害",
+      "title": {"translate":"advancement.island.deal_mg_damage.title"},
+      "description": {"translate":"advancement.island.deal_mg_damage.description"},
       "frame": "task",
       "show_toast": true,
       "announce_to_chat": true,

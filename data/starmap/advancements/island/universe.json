@@ -4,9 +4,9 @@
         "item": "minecraft:chorus_fruit",
         "nbt": "{Enchantments:[{}]}"
       },
-      "title": "宇宙天空流",
+      "title": {"translate":"advancement.island.universe.title"},
       "description": {
-        "text": "用漂浮药水将自己和一名怪物带到270格的高空，然后干掉它",
+        "translate": "advancement.island.universe.description",
         "color": "yellow"
       },
       "frame": "challenge",

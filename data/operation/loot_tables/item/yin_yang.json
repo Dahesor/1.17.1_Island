@@ -1,0 +1,20 @@
+{
+    "type": "generic",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "netherite_leggings",
+                    "functions": [
+                        {
+        "function": "set_nbt",
+        "tag": "{skill:{trigger:'auto',Slot:'legs',id:12s,sid:'yin_yang',anchor:1b},RawJSON:{},Unbreakable:1b,RepairCost:100000,AttributeModifiers:[{AttributeName:'generic.armor',Amount:8.0d,Name:'yinyang_armor',Slot:\"legs\",Operation:0,UUID:[I;-396352273,277235367,-1671552473,1024118609]},{UUID:[I;-396352273,277235367,-1671552473,102418609],AttributeName:'generic.armor_toughness',Operation:0,Slot:\"legs\",Name:'yinyang_art',Amount:3.0d},{Amount:0.1,Operation:1,Name:'yinyang_mh_p',Slot:\"legs\",AttributeName:'generic.max_health',UUID:[I;-396352273,277235367,-1671552473,1024118600]},{UUID:[I;-396352273,277235367,-1671552473,1024118605],AttributeName:'generic.knockback_resistance',Slot:\"legs\",Name:'yinyang_kno_rsi',Operation:0,Amount:0.15d}],HideFlags:6,display:{Name:'{\"translate\": \"item.island.yin_yang\",\"color\": \"gold\",\"italic\": false}',Lore:['{\"translate\": \"tier.4\"}','\"\"','{\"translate\": \"lore.yin_yang.story.1\",\"color\":\"white\",\"italic\": false}','\"\"','{\"translate\": \"attribute.title\"}','[{\"text\": \"+8 \",\"color\": \"dark_green\",\"italic\": false},{\"translate\":\"attribute.name.generic.armor\"}]','[{\"text\": \"+3 \",\"color\": \"dark_green\",\"italic\": false},{\"translate\":\"attribute.name.generic.armor_toughness\"}]','[{\"text\": \"+10% \",\"color\": \"dark_green\",\"italic\": false},{\"translate\":\"attribute.name.generic.max_health\"}]','[{\"text\": \"+1.5 \",\"color\": \"dark_green\",\"italic\": false},{\"translate\":\"attribute.name.generic.knockback_resistance\"}]','\"\"','{\"translate\":\"lore.yin_yang.trait_1.title\",\"italic\":false,\"color\": \"gold\"}','{\"translate\":\"lore.yin_yang.trait_1.1\",\"italic\":false,\"color\": \"gold\"}','{\"translate\":\"lore.yin_yang.trait_1.2\",\"italic\":false,\"color\": \"gold\"}','\"\"','{\"translate\":\"lore.yin_yang.trait_2.title\",\"italic\":false,\"color\": \"#d1a3aa\"}','{\"translate\":\"lore.yin_yang.trait_2.1\",\"italic\":false,\"color\": \"#d1a3aa\"}','{\"translate\":\"lore.yin_yang.trait_2.2\",\"italic\":false,\"color\": \"#d1a3aa\"}','{\"translate\":\"lore.yin_yang.trait_2.3\",\"italic\":false,\"color\": \"#d1a3aa\"}','{\"translate\":\"lore.yin_yang.trait_2.4\",\"italic\":false,\"color\": \"#d1a3aa\"}']}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

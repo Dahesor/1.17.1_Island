@@ -1,0 +1,29 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:diamond_sword"
+      },
+      "title": "大自然的美～妙",
+      "description": "到达森林岛",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true
+    },
+    "parent": "starmap:island/root",
+    "criteria": {
+      "requirement": {
+        "trigger": "location",
+        "conditions": {
+            "location": {
+                "position": {
+                    "x": {
+                        "min": 1,
+                        "max": 2
+                    }
+                }
+            }
+        }
+      }
+    }
+  }
+  

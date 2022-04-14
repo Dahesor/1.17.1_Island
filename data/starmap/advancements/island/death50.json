@@ -3,8 +3,8 @@
       "icon": {
         "item": "minecraft:structure_void"
       },
-      "title": "“艺术家”",
-      "description": "死亡50次",
+      "title": {"translate":"advancement.island.death50.title"},
+      "description": {"translate":"advancement.island.death50.description"},
       "frame": "task",
       "show_toast": true,
       "announce_to_chat": true

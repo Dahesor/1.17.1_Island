@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "carrot_on_a_stick",
+                    "functions": [
+                        {
+            "function": "set_nbt",
+            "tag": "{skill:{trigger:'carrot_stick',id:7s,sid:'arrow_bundle'},arrow_left:5b,CustomModelData:4,display:{Name:'{\"translate\": \"item.island.arrow_bundle\",\"italic\": false,\"bold\": true}',Lore:['\"\"','{\"translate\":\"trigger.right_click\",\"with\":[{\"color\": \"white\",\"italic\":false,\"keybind\":\"key.use\"}]}','{\"translate\": \"arrow_bundle.lore.1\",\"color\": \"white\",\"italic\": false}','{\"translate\": \"arrow_bundle.lore.2\",\"color\": \"white\",\"italic\": false}']},RepairCost:10000}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

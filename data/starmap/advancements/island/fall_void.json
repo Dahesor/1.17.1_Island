@@ -3,8 +3,8 @@
       "icon": {
         "item": "minecraft:bedrock"
       },
-      "title": "出来混迟早是要还的",
-      "description": "掉入虚空",
+      "title": {"translate":"advancement.island.fall_void.title"},
+      "description": {"translate":"advancement.island.fall_void.description"},
       "frame": "task",
       "show_toast": true,
       "announce_to_chat": true,

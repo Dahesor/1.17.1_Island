@@ -1,0 +1,122 @@
+[
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": -4,
+      "predicate": {
+        "block": {
+          "tag": "operation:land_safe"
+        }
+      }
+    },
+    {
+        "condition": "minecraft:location_check",
+      "offsetY": -4,
+      "offsetX": 1,
+      "predicate": {
+        "block": {
+          "tag": "operation:land_safe"
+        }
+      }
+    },
+    {
+        "condition": "minecraft:location_check",
+      "offsetY": -4,
+      "offsetX": -1,
+      "predicate": {
+        "block": {
+          "tag": "operation:land_safe"
+        }
+      }
+    },
+    {
+        "condition": "minecraft:location_check",
+      "offsetY": -4,
+      "offsetZ": 1,
+      "predicate": {
+        "block": {
+          "tag": "operation:land_safe"
+        }
+      }
+    },
+    {
+        "condition": "minecraft:location_check",
+      "offsetY": -4,
+      "offsetZ": -1,
+      "predicate": {
+        "block": {
+          "tag": "operation:land_safe"
+        }
+      }
+    },
+    {
+        "condition": "minecraft:location_check",
+      "offsetY": -4,
+      "offsetX": 1,
+      "offsetZ": 1,
+      "predicate": {
+        "block": {
+          "tag": "operation:land_safe"
+        }
+      }
+    },
+    {
+        "condition": "minecraft:location_check",
+      "offsetY": -4,
+      "offsetX": 1,
+      "offsetZ": -1,
+      "predicate": {
+        "block": {
+          "tag": "operation:land_safe"
+        }
+      }
+    },
+    {
+        "condition": "minecraft:location_check",
+      "offsetY": -4,
+      "offsetX": -1,
+      "offsetZ": 1,
+      "predicate": {
+        "block": {
+          "tag": "operation:land_safe"
+        }
+      }
+    },
+    {
+        "condition": "minecraft:location_check",
+      "offsetY": -4,
+      "offsetX": -1,
+      "offsetZ": -1,
+      "predicate": {
+        "block": {
+          "tag": "operation:land_safe"
+        }
+      }
+    },{
+        "condition": "minecraft:location_check",
+        "offsetY": -3,
+      "predicate": {
+        "block": {
+          "tag": "operation:land_safe"
+        }
+      }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetY": -2,
+      "predicate": {
+        "block": {
+          "tag": "operation:land_safe"
+        }
+      }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetY": -1,
+      "predicate": {
+        "block": {
+          "tag": "operation:land_safe"
+        }
+      }
+    }
+]
+  

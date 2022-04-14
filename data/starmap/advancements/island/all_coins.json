@@ -4,8 +4,8 @@
         "item": "minecraft:brick",
         "nbt": "{CustomModelData:4}"
       },
-      "title": "易拉罐收藏家",
-      "description": "拥有全部4种钱币",
+      "title": {"translate":"advancement.island.all_coins.title"},
+      "description": {"translate":"advancement.island.all_coins.description"},
       "frame": "task",
       "show_toast": true,
       "announce_to_chat": true
