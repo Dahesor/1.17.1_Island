@@ -1,0 +1,34 @@
+[
+    {
+        "condition": "entity_properties",
+        "entity": "this",
+        "predicate": {
+            "equipment": {
+                "head": {
+                    "count": {
+                        "min":1
+                    },
+                    "nbt": "{skill:{group:{name:'mid'}}}"
+                },
+                "chest": {
+                    "count": {
+                        "min":1
+                    },
+                    "nbt": "{skill:{group:{name:'mid'}}}"
+                },
+                "legs": {
+                    "count": {
+                        "min":1
+                    },
+                    "nbt": "{skill:{group:{name:'mid'}}}"
+                },
+                "feet": {
+                    "count": {
+                        "min":1
+                    },
+                    "nbt": "{skill:{group:{name:'mid'}}}"
+                }
+            }
+        }
+    }
+]

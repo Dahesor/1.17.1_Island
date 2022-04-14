@@ -1,0 +1,66 @@
+{
+    "type": "command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "iron_sword"
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "function": "set_nbt",
+            "tag": "{}"
+        },
+        {
+            "function": "set_name",
+            "entity": "this",
+            "name": {"translate":"钢铁长剑","italic": false,"color": "green"}
+        },
+        {
+            "function": "set_lore",
+            "entity": "this",
+            "lore": [
+                {"translate":"tier.1"},
+                "",
+                {"translate":"一把看起来十分普通的长剑","color": "gray","italic": false},
+                {"translate":"稍稍带着一点时代感","color": "gray","italic": false},
+                "",
+                {"translate":"attribute.title"},
+                [{"text": "6","color": "green","italic": false},{"translate":"attribute.name.generic.attack_damage"}],
+                [{"text": "1.6","color": "green","italic": false},{"translate":"attribute.name.generic.attack_speed"}],
+                [{"text": "+12%","color": "green","italic": false},{"translate":"attribute.name.generic.movement_speed"}]
+            ]
+        },
+        {
+            "function": "set_attributes",
+            "modifiers": [
+                {
+                    "name": "item_modifier",
+                    "attribute": "generic.attack_damage",
+                    "amount": 5,
+                    "operation": "addition",
+                    "slot": "mainhand"
+                },
+                {
+                    "name": "item_modifier",
+                    "attribute": "generic.attack_speed",
+                    "amount": -2.4,
+                    "operation": "addition",
+                    "slot": "mainhand"
+                },
+                {
+                    "name": "item_modifier",
+                    "attribute": "generic.movement_speed",
+                    "amount": 0.12,
+                    "operation": "multiply_base",
+                    "slot": "mainhand"
+                }
+            ]
+        }
+    ]
+}

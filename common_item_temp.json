@@ -1,0 +1,35 @@
+{
+    "type": "command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "bedrock"
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "function": "set_nbt",
+            "tag": "{}"
+        },
+        {
+            "function": "set_name",
+            "entity": "this",
+            "name": {"translate":"","italic": false,"color": ""}
+        },
+        {
+            "function": "set_lore",
+            "entity": "this",
+            "lore": [
+                {"translate":"tier.1"},
+                "",
+                {"translate":"","color": "gray","italic": false},
+                ""
+            ]
+        }
+    ]
+}

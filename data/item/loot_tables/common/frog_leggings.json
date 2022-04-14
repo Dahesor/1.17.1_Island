@@ -1,0 +1,43 @@
+{
+    "type": "command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "leather_leggings"
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "function": "set_nbt",
+            "tag": "{display:{color:1344839},skill:{group:{name:'frog'}}}"
+        },
+        {
+            "function": "set_name",
+            "entity": "this",
+            "name": {"translate":"青蛙护腿","italic": false,"color": "green"}
+        },
+        {
+            "function": "set_lore",
+            "entity": "this",
+            "lore": [
+                {"translate":"tier.1"},
+                "",
+                {
+                    "translate" :"人们说这套皮甲曾浸泡在青蛙血中","color": "gray","italic": false
+                },
+                "",
+                {
+                    "translate" :"全身套装效果：","color": "yellow","italic": false
+                },
+                {
+                    "translate" :"永久获得跳跃提升II","color": "yellow","italic": false
+                }
+            ]
+        }
+    ]
+}

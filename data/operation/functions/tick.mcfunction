@@ -1,4 +1,5 @@
 execute if score #loop_20 calculator matches 5 run function operation:visibility/redirector
+execute if score #loop_20 calculator matches 9 as @a at @s run function operation:player_second/self
 function operation:skill/timer
 function operation:skill/redirect
 execute as @a[scores={death=1..}] run function operation:death/self
